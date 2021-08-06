@@ -1,5 +1,4 @@
 #!/bin/bash
-
 cp -a ~/projects/airflow-dags/eks_kube_config/. ~/projects/aws-mwaa-local-runner/dags/eks_kube_config/
 cp -a ~/projects/airflow-dags/include/. ~/projects/aws-mwaa-local-runner/dags/include/
 cp -a ~/projects/airflow-dags/dags/maintenance/. ~/projects/aws-mwaa-local-runner/dags/
@@ -7,4 +6,5 @@ cp -a ~/projects/airflow-dags/dags/pdm/. ~/projects/aws-mwaa-local-runner/dags/
 cp -a ~/projects/airflow-dags/dags/templates/. ~/projects/aws-mwaa-local-runner/dags/
 cp -a ~/projects/airflow-dags/dags/utilities/. ~/projects/aws-mwaa-local-runner/dags/
 cp -a ~/projects/airflow-dags/dags/tl2/fsv/. ~/projects/aws-mwaa-local-runner/dags/
+cp -a ~/projects/airflow-dags/requirements.txt ~/projects/aws-mwaa-local-runner/dags/requirements.txt
 cp -a ~/projects/airflow-dags/plugins/emr_containers/. ~/projects/aws-mwaa-local-runner/plugins/
