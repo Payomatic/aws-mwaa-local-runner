@@ -6,6 +6,7 @@ cp -a ~/projects/airflow-dags/dags/templates/. ~/projects/aws-mwaa-local-runner/
 cp -a ~/projects/airflow-dags/dags/utilities/. ~/projects/aws-mwaa-local-runner/dags/
 cp -a ~/projects/airflow-dags/dags/tl2/fsv/. ~/projects/aws-mwaa-local-runner/dags/
 cp -a ~/projects/airflow-dags/dags/tl2/maintenance/. ~/projects/aws-mwaa-local-runner/dags/
+cp -a ~/projects/airflow-dags/dags/tl2/sdn/. ~/projects/aws-mwaa-local-runner/dags/
 cp -a ~/projects/airflow-dags/dags/tl2x/maintenance/. ~/projects/aws-mwaa-local-runner/dags/
 cp -a ~/projects/airflow-dags/dags/snowflake/datalake/products/. ~/projects/aws-mwaa-local-runner/dags/
 cp -a ~/projects/airflow-dags/dags/snowflake/payomatic/analytics/. ~/projects/aws-mwaa-local-runner/dags/
